@@ -10,7 +10,7 @@ We are not responsible if you use it for commercial purposes or if you use it in
 ```bash
 mkdir mkt01
 cd mkt01
-wget https://raw.githubusercontent.com/lupael/docker-mikrotik/main/docker-compose.yml -O docker-compose.yml
+wget https://raw.githubusercontent.com/lupael/mikrotik/main/docker-compose.yml -O docker-compose.yml
 docker-compose up -d
 ```
 
