@@ -1,0 +1,11 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/workspace/mikrotik'
+ 
+ls: cannot access '*.vdi': No such file or directory
+
+ls: cannot access '*.vdi': No such file or directory
+
+echo "Building lupael/mikrotik"
+docker build --build-arg VERSON= -t lupael/mikrotik: -f Dockerfile .
+make: Leaving directory '/workspace/mikrotik'
+ 
