@@ -1,4 +1,3 @@
-  
 DOCKER ?= docker
 TARGET ?= lupael/mikrotik
 IMAGE ?= 'ls *.vdi'
