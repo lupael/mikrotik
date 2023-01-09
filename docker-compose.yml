@@ -29,7 +29,6 @@ services:
     network_mode: bridge
     privileged: true
 
-
   winbox:
     image: lupael/novnc-winbox:latest
     container_name: winbox
