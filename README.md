@@ -65,7 +65,7 @@ services:
 
 
   winbox:
-    image: lupael/novnc-winbox:latest
+    image: lupael/docker-novnc:latest
     container_name: winbox
     hostname: winbox
     restart: always
